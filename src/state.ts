@@ -20,6 +20,9 @@ export enum State {
   Terengganu = "Terengganu",
   Sabah = "Sabah",
   Sarawak = "Sarawak",
+  KualaLumpur = "Kuala Lumpur",
+  Labuan = "Labuan",
+  Putrajaya = "Putrajaya",
 }
 
 export const states: StateData[] = [
@@ -113,5 +116,26 @@ export const states: StateData[] = [
     royal_capital: "",
     abbreviation: "SWK",
     iso_code: "MY-13",
+  },
+  {
+    name: State.KualaLumpur,
+    capital: "Kuala Lumpur",
+    royal_capital: "",
+    abbreviation: "KUL",
+    iso_code: "MY-14",
+  },
+  {
+    name: State.Labuan,
+    capital: "Bandar Labuan",
+    royal_capital: "",
+    abbreviation: "LBN",
+    iso_code: "MY-15",
+  },
+  {
+    name: State.Putrajaya,
+    capital: "Putrajaya",
+    royal_capital: "",
+    abbreviation: "PJY",
+    iso_code: "MY-16",
   },
 ];
