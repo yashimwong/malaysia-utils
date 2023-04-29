@@ -1,6 +1,6 @@
 {
   "name": "malaysia-utils",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A utility library which contains Malaysia specific rules.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
